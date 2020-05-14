@@ -36,7 +36,7 @@ app.get('/about', (req, res) => {
 
 app.get('/help', (req, res) => {
     res.render('help', {
-        message: 'This website allows you to look up the current weather, and what it feels like due to the humidity and wind, for any location.',
+        message: 'This website allows you to look up the current weather for any location.',
         instructions: 'To use this site, simply enter your desired location/address in the input box on the Weather page (shown in the Navigation bar on top) and click Search.',
         title: 'Help',
         name: 'Iqbal Farooqui'
